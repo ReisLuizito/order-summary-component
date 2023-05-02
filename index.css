@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+background-image:url("images/pattern-background-desktop.svg");
+}
+
+.body {
+font-family: "Red Hat display";
+}
+
+#main {
+  /* pura mágica */
+  background-color: white;
+  position: absolute;
+  margin: 200px 750px;
+  border-radius: 10px;
+}
