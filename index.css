@@ -1,17 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
-background-image:url("images/pattern-background-desktop.svg");
+  background-image:url("images/pattern-background-desktop.svg");
+  
 }
 
 .body {
-font-family: "Red Hat display";
+  font-family: "Red Hat display";
 }
 
 #main {
   /* pura mágica */
+  
   background-color: white;
   position: absolute;
   margin: 200px 750px;
+  height: auto;
   border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color:hsl(223, 47%, 23%);
+}
+
+#message {
+  font-size: 16px;
+  color: rgb(98, 99, 109);
+  text-align: center;
+}
+
+#plan {
+  margin: 25px 50px;
+  background-color: hsl(225, 100%, 98%);
+  margin-bottom: 10px;
+}
+
+#annual-plan {
+  color: hsl(224, 23%, 55%);
+  
+}
+
+#valor {
+ color: hsl(224, 23%, 55%);
+}
+
+#change {
+
 }
