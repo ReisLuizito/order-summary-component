@@ -11,12 +11,16 @@ body {
 
 #main {
   /* pura mágica */
-  
+  font-size: 16px;
   background-color: white;
   position: absolute;
   margin: 200px 750px;
   height: auto;
   border-radius: 10px;
+}
+
+#banner {
+  border-radius: 10%;
 }
 
 h1 {
@@ -31,9 +35,25 @@ h1 {
 }
 
 #plan {
-  margin: 25px 50px;
+  height: 100px;
+  width: auto;
+  margin: 20px 25px;
   background-color: hsl(225, 100%, 98%);
-  margin-bottom: 10px;
+  border-radius: 10px;
+  
+}
+
+#img {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+#service {
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+
 }
 
 #annual-plan {
@@ -46,5 +66,24 @@ h1 {
 }
 
 #change {
+position: relative;
+left: 250px;
+bottom: 100px;
+}
 
+button {
+  width: 400px;
+  height: 50px;
+  position: relative;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 20px;
+  left: 25px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#cancel {
+
+  
 }
