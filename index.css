@@ -11,16 +11,18 @@ body {
 
 #main {
   /* pura mágica */
+  width: 450px;
   font-size: 16px;
   background-color: white;
-  position: absolute;
-  margin: 200px 750px;
+  position: relative;
+  margin: 200px 725px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 7%;
 }
 
 #banner {
-  border-radius: 10%;
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
 }
 
 h1 {
@@ -35,8 +37,10 @@ h1 {
 }
 
 #plan {
+  position: relative;
   height: 100px;
-  width: auto;
+  width: 350px;
+  left: 25px;
   margin: 20px 25px;
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
@@ -46,18 +50,18 @@ h1 {
 #img {
   position: relative;
   left: 20px;
-  top: 30px;
+  top: 25px;
 }
 
 #service {
   position: relative;
   left: 100px;
-  bottom: 40px;
+  bottom: 50px;
 
 }
 
 #annual-plan {
-  color: hsl(224, 23%, 55%);
+  color:hsl(223, 47%, 23%);
   
 }
 
@@ -68,22 +72,38 @@ h1 {
 #change {
 position: relative;
 left: 250px;
-bottom: 100px;
+bottom: 110px;
+}
+
+#change:hover {
+  color: hsl(251, 38%, 55%);
 }
 
 button {
-  width: 400px;
+  width: 350px;
   height: 50px;
   position: relative;
   color: white;
   background-color: hsl(245, 75%, 52%);
   margin-bottom: 20px;
-  left: 25px;
+  left: 50px;
+  margin-top: 15px;
+  margin-right: 100px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 17px;
+  font-family: "Red Hat display";
+}
+
+button:hover {
+  background-color: hsl(251, 38%, 55%);
 }
 
 #cancel {
-
+position: relative;
+left: 172px;
   
+}
+
+#cancel:hover {
+  color: hsl(223, 47%, 23%);
 }
