@@ -15,7 +15,8 @@ body {
   font-size: 16px;
   background-color: white;
   position: relative;
-  margin: 200px 725px;
+  top: 200px;
+  margin: auto;
   height: auto;
   border-radius: 7%;
 }
@@ -92,10 +93,12 @@ button {
   border-radius: 10px;
   font-size: 17px;
   font-family: "Red Hat display";
+  border: none;
 }
 
 button:hover {
   background-color: hsl(251, 38%, 55%);
+  border: none;
 }
 
 #cancel {
