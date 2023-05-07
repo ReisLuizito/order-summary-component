@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   background-color: white;
   position: relative;
-  top: 200px;
+  top: 150px;
   margin: auto;
   height: auto;
   border-radius: 7%;
@@ -109,4 +109,15 @@ left: 172px;
 
 #cancel:hover {
   color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  margin-top: 250px;
+}
+
+.attribution a {
+  color: hsl(228, 47%, 61%);
 }
