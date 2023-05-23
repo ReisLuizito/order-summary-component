@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
-  background-image:url("images/pattern-background-desktop.svg");
+  background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat
   
 }
 
@@ -9,7 +11,7 @@ body {
   font-family: "Red Hat display";
 }
 
-#main {
+.main {
   /* pura mágica */
   width: 450px;
   font-size: 16px;
@@ -21,7 +23,7 @@ body {
   border-radius: 7%;
 }
 
-#banner {
+.banner {
   border-top-left-radius: 7%;
   border-top-right-radius: 7%;
 }
@@ -31,13 +33,13 @@ h1 {
   color:hsl(223, 47%, 23%);
 }
 
-#message {
+.message {
   font-size: 16px;
   color: rgb(98, 99, 109);
   text-align: center;
 }
 
-#plan {
+.plan {
   position: relative;
   height: 100px;
   width: 350px;
@@ -48,35 +50,35 @@ h1 {
   
 }
 
-#img {
+.img {
   position: relative;
   left: 20px;
   top: 25px;
 }
 
-#service {
+.service {
   position: relative;
   left: 100px;
   bottom: 50px;
 
 }
 
-#annual-plan {
+.annual-plan {
   color:hsl(223, 47%, 23%);
   
 }
 
-#valor {
+.valor {
  color: hsl(224, 23%, 55%);
 }
 
-#change {
+.change {
 position: relative;
 left: 250px;
 bottom: 110px;
 }
 
-#change:hover {
+.change:hover {
   color: hsl(251, 38%, 55%);
 }
 
@@ -101,13 +103,13 @@ button:hover {
   border: none;
 }
 
-#cancel {
+.cancel-button {
 position: relative;
 left: 172px;
   
 }
 
-#cancel:hover {
+.cancel-button:hover {
   color: hsl(223, 47%, 23%);
 }
 
